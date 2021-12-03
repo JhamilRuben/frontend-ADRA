@@ -1,0 +1,19 @@
+
+<button href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo"><i class="far fa-address-card"></i></button>
+
+<table class="table">
+  <thead>
+    <tr>
+        <th scope="col">#</th>
+        <th scope="col">Modulo</th>
+        <th scope="col">nombre</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let modulo of filas">
+      <th scope="row">1</th>
+      <td>{{modulo.idmodulo}}</td>
+      <td>{{modulo.nombre}}</td>
+    </tr>   
+  </tbody>
+</table>
