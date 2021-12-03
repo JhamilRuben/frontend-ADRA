@@ -1,5 +1,5 @@
 
 export class Modulo{
-    idmodulo? : number;
-    nombre? : string;
+    id_modulo? : number;
+    no_modulo? : string;
 }

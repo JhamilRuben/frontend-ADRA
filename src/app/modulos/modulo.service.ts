@@ -51,7 +51,7 @@ export class ModuloService {
       }));
   }
   update(modulo:Modulo):Observable<any>{
-    return this.http.put<any>(`${this.urlmodulo}/${modulo.idmodulo}`, modulo).pipe(
+    return this.http.put<any>(`${this.urlmodulo}/${modulo.id_modulo}`, modulo).pipe(
       catchError(e =>{
         if(e.status == 400){
           return throwError(e);
